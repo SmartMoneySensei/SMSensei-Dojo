@@ -20,6 +20,13 @@ let intialPath = path.join(__dirname, "public");
 app.use(bodyParser.json());
 app.use(express.static(intialPath));
 
+app.get('/', (req, res) => {
+    res.sendFile(path.join(intialPath, "index.html"));
+})
+
+app.get('/forex', (req,res) => {
+    res.sendFile(path.join(initialPath, "forex.html"));
+})
 
 app.listen(3000, (req, res) => {
     console.log('listening on port 3000......')
