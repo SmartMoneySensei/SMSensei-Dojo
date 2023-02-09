@@ -28,6 +28,7 @@ app.get('/forex', (req,res) => {
     res.sendFile(path.join(initialPath, "forex.html"));
 })
 
+
 app.listen(3000, (req, res) => {
     console.log('listening on port 3000......')
 })
