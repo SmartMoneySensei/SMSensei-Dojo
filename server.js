@@ -57,6 +57,10 @@ app.get('/research', (req, res) => {
     res.sendFile(path.join(intialPath, "fundamental.html"));
 })
 
+app.get('/thankyou', (req, res) => {
+    res.sendFile(path.join(intialPath, "thankyou.html"));
+})
+
 app.post('/register-user', (req, res) => {
     const { name, email, password } = req.body;
 
