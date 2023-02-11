@@ -10,7 +10,7 @@ The foreign exchange market, also known as the forex market, is the world’s mo
 
 **CSS Framework:** Bootstrap
 
-**Stack:** Postgres, Express, Node.js, Javascript, CSS, SASS, & HTML
+**Stack:** Postgres, Express, React, Node.js(PERN), Javascript, CSS, SASS, & HTML
 
 Ui/Ux color scheming for an overall user friendly experience, while being considerate of those with epilepsy to avoid any seizures from interacting/scrolling through the application.
 
