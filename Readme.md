@@ -2,7 +2,7 @@
 
 Make sure you run 'npm install' command to install all libraries in package.json file.# SmartMoneySensei Dojo!
 
-This is an website dedicated helping individuals learn how to be a successful FOREX trader through informative guiding. In addition, to expressing knowledge about foreign exchange that users might not be familiar with.
+This is an website dedicated to helping individuals learn how to be a successful FOREX trader through informative guiding. In addition, to expressing knowledge about foreign exchange that users might not be familiar with.
 
 The foreign exchange market, also known as the forex market, is the world’s most traded financial market. We’re committed to ensuring our clients have the best education, tools, platforms, and accounts to navigate this market and trade with confidence.
 
