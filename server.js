@@ -3,6 +3,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const knex = require('knex');
 const { response } = require('express');
+require('dotenv').config()
 
 const db = knex({
     client: 'pg',
@@ -102,6 +103,4 @@ app.post('/login-user', (req, res) => {
     })
 })
 
-app.listen(3000, (req, res) => {
-    console.log('listening on port 3000......')
-})
+app.listen(process.env.PORT)
