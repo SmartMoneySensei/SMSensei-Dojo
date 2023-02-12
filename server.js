@@ -79,7 +79,7 @@ app.post('/register-user', (req, res) => {
         })
         .catch(err => {
             if(err.detail.includes('already exists')){
-                res.json('email already exists');
+                res.json('Apologies but another user used this email already🤷🏾‍♂️');
             }
         })
     }
@@ -98,7 +98,7 @@ app.post('/login-user', (req, res) => {
         if(data.length){
             res.json(data[0]);
         } else{
-            res.json('email or password is incorrect');
+            res.json('Their was an slight hiccup within the Username or Password🤦🏾‍♂️');
         }
     })
 })

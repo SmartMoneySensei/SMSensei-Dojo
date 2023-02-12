@@ -26,11 +26,10 @@ ONLY REGISTERED "users" that are LOGGED into their account will be able to take 
 information pertaining to the FOREX market. 
  
 
-
-What relationship exists between your Users and Articles? 
+Relational database exists between your Users and Contact!
 
 CONTACT US(ThankYou)~ Users are able to fill out & submit a email form REQUIRING Name, Email, and Message; 
-of which is sent to the my email inbox and responded to in less than 24 hours. Once user has verified they are not a robot🤖, they will be redirected to SMS-Dojo "ThankYou Page" to continue exploring the application or logOut out of application by "clicking" the "Profile Icon) located in the NavBar, then "selecting" the "Logout" button.
+of which the form along with their message is sent to their (live)email address as well as my postgres data base and email inbox of which is responded to in less than 24 hours. Once user has verified they are not a robot🤖, they will be redirected to SMS-Dojo "ThankYou Page" to continue exploring the application or logOut out of application by "clicking" the "Profile Icon) located in the NavBar, then "select" the "Logout" button.
 
 HOME Page(Index):
 Consists of an introduction to the website while briefly explaining "What is Forex".
