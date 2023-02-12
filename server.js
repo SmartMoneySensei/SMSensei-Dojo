@@ -104,3 +104,4 @@ app.post('/login-user', (req, res) => {
 })
 
 app.listen(process.env.PORT)
+console.log('listening on PORT 3000')
