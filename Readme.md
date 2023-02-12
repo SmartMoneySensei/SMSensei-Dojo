@@ -1,4 +1,5 @@
 # SmartMoneySensei Dojo App
+This is a localhost application of which can be started after typing "nodemon" or "node server.js" in the root of the project on your preferred terminal.
 
 Make sure you run 'npm install' command to install all libraries in package.json file.# SmartMoneySensei Dojo!
 
