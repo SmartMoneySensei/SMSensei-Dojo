@@ -1,7 +1,7 @@
 # SmartMoneySensei Dojo App
 This is a localhost application of which can be started by "Cloning or Forking" the Sms-Dojo. Open your preferred terminal and select where you want the Sms-Dojo to be located, then type "git clone (Cloned/Forked URL)". Once successful then type "CD Sms-Dojo" 
 Make sure you run 'npm install' command to install all libraries in package.json file.# SmartMoneySensei Dojo!
-then typing "nodemon" or "node server.js" in the root of the application on your preferred terminal. 
+then type "nodemon" or "node server.js" in the root of the application on your preferred terminal. 
 Open your preferred web browser and go to "https://Loclhost:3000/"!
 Application Is Now Open! 
 
