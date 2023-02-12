@@ -1,9 +1,9 @@
 # SmartMoneySensei Dojo App
 This is a localhost application of which can be started by "Cloning or Forking" the Sms-Dojo. Open your preferred terminal and select which folder or directory you want the Sms-Dojo to be located, then type "git clone (Cloned/Forked URL)". Only when successfully installed, type "CD Sms-Dojo" 
 Make sure you run 'npm install' command to install all libraries in package.json file.# SmartMoneySensei Dojo!
-then type "nodemon" or "node server.js" in the root of the application on your preferred terminal. 
-Open your preferred web browser and go to "https://Loclhost:3000/"!
-Application Is Now Open! 
+then type "nodemon" in the root of the application on your preferred terminal. 
+Open your preferred web browser and go to "https://Localhost:3000/"
+## SMS-Dojo Application Should Now Be Open & Running🥳 
 
 This is an react web application dedicated to helping individuals learn how to be a successful FOREX trader through informative guiding. In addition, to expressing knowledge about foreign exchange that users might not be familiar with.
 
@@ -28,8 +28,8 @@ information pertaining to the FOREX market.
 
 What relationship exists between your Users and Articles? 
 
-CONTACT US~ Users are able to fill out & submit a email form REQUIRING Name, Email, and Message; 
-of which is sent to the my email inbox and responded to in less than 24 hours.
+CONTACT US(ThankYou)~ Users are able to fill out & submit a email form REQUIRING Name, Email, and Message; 
+of which is sent to the my email inbox and responded to in less than 24 hours. Once user has verified they are not a robot🤖, they will be redirected to SMS-Dojo "ThankYou Page" to continue exploring the application or logOut out of application by "clicking" the "Profile Icon) located in the NavBar, then "selecting" the "Logout" button.
 
 HOME Page(Index):
 Consists of an introduction to the website while briefly explaining "What is Forex".
@@ -67,5 +67,5 @@ Home(Welcome)~
 Technical Analysis~
 Sentimental Analysis~
 Fundamental Analysis~
-Contact Us~
+Contact Us(ThankYou)~
 About~# Milestone-Project-3-SmartMoneySensei-Dojo
