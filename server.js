@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
 const knex = require('knex');
+const cors = require('cors')
 const { response } = require('express');
 require('dotenv').config()
 
