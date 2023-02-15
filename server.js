@@ -104,5 +104,7 @@ app.post('/login-user', (req, res) => {
     })
 })
 
-app.listen(process.env.PORT)
-console.log('Welcome to The Secret DOJO located on PORT 3000')
+ // 3000 is the port number in my case.
+ app.listen(3000, function() {
+    console.log("Welcome to The Secret DOJO located on PORT " + 3000)
+});
