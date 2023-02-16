@@ -22,9 +22,9 @@ DATABASE POSTGRES 2 TABLES
 users
 bookings
 
-The client user's (id, name, email, & password) will be saved using POSTGRES under the DATABASE(Dojo) and stored under TABLE "users" for future usage.
+The client users (id, name, email, & password) will be saved using POSTGRES under the DATABASE(Dojo) and stored under TABLE "users" for future usage.
 
-The client user's bookings (id, user_id, booking_start-time, & booked_slots_no) will be saved using POSTGRES under the DATABASE(Dojo) and stored under TABLE "bookings" for future booking information.
+The client bookings (id, user_id, booking_start-time, & booked_slots_no) will be saved using POSTGRES under the DATABASE(Dojo) and stored under TABLE "bookings" for future booking information.
 
 Therefore, if they leave the page or log out of their account, they will be able to sign back in using the credentials used to REGISTER their account.
 
