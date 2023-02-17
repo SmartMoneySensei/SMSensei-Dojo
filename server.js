@@ -2,7 +2,6 @@ const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
 const knex = require('knex');
-const cors = require('cors')
 const { response } = require('express');
 require('dotenv').config()
 
@@ -93,7 +92,8 @@ app.post('/login-user', (req, res) => {
     .from('users')
     .where({
         email: email,
-        password: password
+        password: password,
+        // booking_start_time: booking_start_time
     })
     .then(data => {
         if(data.length){

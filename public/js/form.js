@@ -45,7 +45,7 @@ if(name == null){ //login page is open
             body: JSON.stringify({
                 name: name.value,
                 email: email.value,
-                password: password.value
+                password: password.value,
             })
         })
         .then(res => res.json())
@@ -57,6 +57,7 @@ if(name == null){ //login page is open
 }
 
 const validateData = (data) => {
+    console.log(data)
     if(!data.name){
         alertBox(data);
     } else{
