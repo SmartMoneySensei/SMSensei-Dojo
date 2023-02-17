@@ -4,7 +4,7 @@ window.onload = () => {
     if(!sessionStorage.name){
         location.href = '/login';
     } else{
-        greeting.innerHTML = `Hello ${sessionStorage.name} 😇 Welcome to the secret Dojo where you will learn about FOREX quietly!🤫`;
+        greeting.innerHTML = `Hello ${sessionStorage.name} ${sessionStorage.booking_start_time} 😇 Welcome to the secret Dojo where you will learn about FOREX quietly!🤫`;
     }
 }
 
